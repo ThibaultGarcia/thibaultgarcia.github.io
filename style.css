@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'FFCocon';
+    src: url('/fonts/cocon-regular.otf')
+}
+
+@font-face {
+    font-family: 'Genshin';
+    src: url('/fonts/zh-cn.ttf')
+}
+
+body {
+    background-color:rgb(118, 118, 118);
+    font-family:'FFCocon';
+    }
+
+header {
+    height:auto;
+    width:auto;
+    background-color:cadetblue;
+    text-align:center;
+    font-family:'Genshin';
+    font-size:42px;
+}
+
+navbar {
+    height: 30px;
+    width: auto;
+    background-color: rgb(80, 200, 255);
+}
+
+navbar ul{
+    list-style-type:none;
+    text-decoration:none;
+}
