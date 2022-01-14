@@ -2,33 +2,66 @@
     font-family: 'FFCocon';
     src: url('/fonts/cocon-regular.otf')
 }
-
 @font-face {
     font-family: 'Genshin';
     src: url('/fonts/zh-cn.ttf')
 }
 
 body {
-    background-color:rgb(118, 118, 118);
+    background-color:rgb(180, 180, 180);
     font-family:'FFCocon';
+    color:white;
+    background-image: url(/imgs/space.png);
     }
 
 header {
     height:auto;
     width:auto;
-    background-color:cadetblue;
+    background-color:#34CDFF;
     text-align:center;
     font-family:'Genshin';
     font-size:42px;
 }
 
-navbar {
-    height: 30px;
-    width: auto;
-    background-color: rgb(80, 200, 255);
+.navbar {
+    list-style-type:none;
+    background-color: #008abc;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    height:auto;
+    width:100%;
 }
 
-navbar ul{
+.navbar li {
+    display:inline;
+    padding: 14px 16px;
+}
+
+.navbar li a:hover{
+    background-color:#111
+}
+
+.intro h1, h2{
+    text-transform: uppercase;
+}
+
+.intro h2 span{
+    color:rgb(0, 0, 255);
+}
+
+.intro h4 {
+    font-family:Arial;
+}
+
+.linkedin img {
+    background: #007bb5;
+    color: white;
+    width:32px;
+    height:32px;
+  }
+
+.contact ul {
     list-style-type:none;
-    text-decoration:none;
+    font-family:'Arial';
 }
