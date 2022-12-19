@@ -7,36 +7,34 @@ html {
     background-color:rgb(8, 13, 20);
     font-family:'FFCocon';
     color:white;
-    }
-
-header {
-    height:auto;
-    width:auto;
-    background-color:#5b9dff;
-    text-align:center;
-    font-size:42px;
 }
 
-.navbar, .navbar a{
-    list-style-type:none;
-    background-color: #0077ff;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    height:auto;
+.navbar {
+    position:fixed;
+    top:0;
+    left:0;
     width:100%;
+    background-color:#0077ff;
 }
 
 .navbar li {
-    display:inline;
-    padding: 14px 16px;
+    display:inline-flex;
+    padding: 6px;
+    list-style-type:none;
+    
 }
-
+.navbar a{
+    text-decoration: none;
+}
 .navbar li a:hover{
-    background-color:rgb(80, 80, 80);
+    color:white;
 }
 
-.intro h1, h2{
+.intro {
+    text-align:center;
+}
+
+.intro h2{
     text-transform: uppercase;
 }
 
@@ -44,19 +42,30 @@ header {
     color:rgb(0, 132, 255);
 }
 
-.intro h4 {
-    font-family:Arial;
+.competence{
+    padding:50px;
 }
 
-.linkedin img {
-    background: #007bb5;
-    color: white;
-    width:32px;
-    height:32px;
-  }
+.experience{
+    padding:50px;
+}
 
-.contact ul, li {
+.contact ul {
     list-style-type:none;
     font-family:'Arial';
     text-decoration: none;
+}
+
+.linkedin img {
+    width:24px;
+    height:24px;
+}
+
+.linkedin span, .contact li a{
+    color:#0077ff;
+}
+
+footer, footer a{
+    text-align:center;
+    color:#0077ff;
 }
