@@ -2,30 +2,24 @@
     font-family: 'FFCocon';
     src: url('/fonts/cocon-regular.otf')
 }
-@font-face {
-    font-family: 'Genshin';
-    src: url('/fonts/zh-cn.ttf')
-}
 
-body {
-    background-color:rgb(180, 180, 180);
+html {
+    background-color:rgb(8, 13, 20);
     font-family:'FFCocon';
     color:white;
-    background-image: url(/imgs/space.png);
     }
 
 header {
     height:auto;
     width:auto;
-    background-color:#34CDFF;
+    background-color:#5b9dff;
     text-align:center;
-    font-family:'Genshin';
     font-size:42px;
 }
 
-.navbar {
+.navbar, .navbar a{
     list-style-type:none;
-    background-color: #008abc;
+    background-color: #0077ff;
     margin: 0;
     padding: 0;
     text-decoration: none;
@@ -39,7 +33,7 @@ header {
 }
 
 .navbar li a:hover{
-    background-color:#111
+    background-color:rgb(80, 80, 80);
 }
 
 .intro h1, h2{
@@ -47,7 +41,7 @@ header {
 }
 
 .intro h2 span{
-    color:rgb(0, 0, 255);
+    color:rgb(0, 132, 255);
 }
 
 .intro h4 {
@@ -61,7 +55,8 @@ header {
     height:32px;
   }
 
-.contact ul {
+.contact ul, li {
     list-style-type:none;
     font-family:'Arial';
+    text-decoration: none;
 }
