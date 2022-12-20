@@ -1,0 +1,21 @@
+.intro {
+    height:100vh;
+    text-align:center;
+    font-size:2rem;
+    padding-top:6rem;
+}
+
+.intro h2{
+    text-transform: uppercase;
+}
+
+.intro h2 span{
+    color:rgb(0, 132, 255);
+}
+#godown{
+    text-decoration: none;
+    background-color: black;
+    padding: 1rem;
+    border-radius: 1em;
+    margin-top: 1rem;
+}
